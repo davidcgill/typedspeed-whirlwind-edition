@@ -4,22 +4,24 @@ Created on Sat Aug 18 14:12:50 2018
 
 @author: david
 
-type tester:
-    this program shows a word
+type tester whirl wind edition:
+    
     it shows what you have typed
-    it has a 30 second countdown
-    hit enter to move to next word  .... i could do letters per min and say average word is 4 or limit word size from 1 to 6 letters
+    
+    hit enter or space to move to next word  ...
 
     words typed/0.5 to get words per minute
     display score
     allow for play agian or quick
 
-Future add ons:
+
     words flying at the wall
-        words flying faster with time
-        difficulty level changes lives and word length
-        make a scoring system
-        ... doesn't help me make my end goal but does help learn animation of motion
+        words at a higher frequency with time
+		three lives on defualt difficulty
+		they change colour the closer they get to the wall
+		if it hits you lose a life and it dissapeared
+		if you spell it right it disspears and augments your score
+       
 """
 #need this every time to make a something in pygame
 import pygame, random
